@@ -5,7 +5,7 @@ import datetime
 import logging
 import argparse
 
-logging.basicConfig(filename='example.log', encoding='utf-8', level=logging.DEBUG)
+logging.basicConfig(filename='logs.log', encoding='utf-8', level=logging.DEBUG)
 inicio=datetime.datetime.now()
 logging.info(f"Hora ejecucion: {inicio}")
 parser = argparse.ArgumentParser()
